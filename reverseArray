@@ -1,0 +1,13 @@
+const sentence = ["sense.", "make", "all", "will", "This"];
+const reverseArray = (array) => {
+  const newArray = [];
+  for (var i = 0; i < array.length; i++) {
+    const j = array.length - i;
+    newArray.push(array[j - 1]);
+  }
+  console.log(array);
+  console.log(newArray);
+  return newArray;
+};
+
+reverseArray(sentence);
